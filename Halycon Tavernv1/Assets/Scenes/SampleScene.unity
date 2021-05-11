@@ -1560,6 +1560,16 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: -2709725555739476853, guid: 06fbde3d0a3386e45a88637abea2bfe4,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2709725555739476853, guid: 06fbde3d0a3386e45a88637abea2bfe4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: -731020269152044241, guid: 06fbde3d0a3386e45a88637abea2bfe4,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1868,6 +1878,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barrel_Stand (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6af5770ec7704f846b5c195ec12a0296,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6af5770ec7704f846b5c195ec12a0296,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6af5770ec7704f846b5c195ec12a0296, type: 3}
 --- !u!4 &138791265 stripped
@@ -1895,6 +1915,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 68.88189, y: 73.3063, z: 83.1656}
   m_Center: {x: 0, y: 0.0000019073485, z: -0.0000038146977}
+--- !u!64 &138791270
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 138791266}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5302568919011541938, guid: 6af5770ec7704f846b5c195ec12a0296, type: 3}
 --- !u!1001 &141448947
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5698,6 +5732,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barrel_Stand (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6af5770ec7704f846b5c195ec12a0296,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6af5770ec7704f846b5c195ec12a0296,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6af5770ec7704f846b5c195ec12a0296, type: 3}
 --- !u!4 &668327622 stripped
@@ -5725,6 +5769,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 68.88189, y: 73.3063, z: 83.1656}
   m_Center: {x: 0, y: 0.0000019073485, z: -0.0000038146977}
+--- !u!64 &668327627
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 668327623}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5302568919011541938, guid: 6af5770ec7704f846b5c195ec12a0296, type: 3}
 --- !u!1 &672764370
 GameObject:
   m_ObjectHideFlags: 0
@@ -9168,7 +9226,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4880817972084554, guid: 7412af8416a104d4f98d1c8e99da6e9a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.07638166
+      value: 0.07638059
       objectReference: {fileID: 0}
     - target: {fileID: 4880817972084554, guid: 7412af8416a104d4f98d1c8e99da6e9a, type: 3}
       propertyPath: m_LocalPosition.y
@@ -9176,23 +9234,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4880817972084554, guid: 7412af8416a104d4f98d1c8e99da6e9a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -18.875113
+      value: -18.875973
       objectReference: {fileID: 0}
     - target: {fileID: 4880817972084554, guid: 7412af8416a104d4f98d1c8e99da6e9a, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.68768567
+      value: 0.70703083
       objectReference: {fileID: 0}
     - target: {fileID: 4880817972084554, guid: 7412af8416a104d4f98d1c8e99da6e9a, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.000000045785423
+      value: 0.00000004707337
       objectReference: {fileID: 0}
     - target: {fileID: 4880817972084554, guid: 7412af8416a104d4f98d1c8e99da6e9a, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.72600865
+      value: -0.7071828
       objectReference: {fileID: 0}
     - target: {fileID: 4880817972084554, guid: 7412af8416a104d4f98d1c8e99da6e9a, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.000000048336936
+      value: 0.000000047083507
       objectReference: {fileID: 0}
     - target: {fileID: 4880817972084554, guid: 7412af8416a104d4f98d1c8e99da6e9a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -9200,7 +9258,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4880817972084554, guid: 7412af8416a104d4f98d1c8e99da6e9a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -93.106
+      value: -90.012
       objectReference: {fileID: 0}
     - target: {fileID: 4880817972084554, guid: 7412af8416a104d4f98d1c8e99da6e9a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -13569,6 +13627,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barrel_Stand
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6af5770ec7704f846b5c195ec12a0296,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6af5770ec7704f846b5c195ec12a0296,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6af5770ec7704f846b5c195ec12a0296, type: 3}
 --- !u!4 &1595939973 stripped
@@ -13596,6 +13664,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 68.88189, y: 73.3063, z: 83.1656}
   m_Center: {x: 0, y: 0.0000019073485, z: -0.0009803772}
+--- !u!64 &1595939978
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1595939974}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5302568919011541938, guid: 6af5770ec7704f846b5c195ec12a0296, type: 3}
 --- !u!1 &1598222464 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -1668653880172744117, guid: 6505eaa75f670814dad0cf0c8defa78b,
